@@ -39,6 +39,19 @@ class WalletForm extends Component {
         component={DocTextArea}
         placeholder="One-paragraph blurb"
       />
+      <Field
+        label="Is this fiction or non-fiction?"
+        value="fiction"
+        type="input"
+        name="type"
+        component={DocField}
+      />
+      <Field
+        value="non-fiction"
+        type="input"
+        name="type"
+        component={DocField}
+      />
       </div>
     );
   }

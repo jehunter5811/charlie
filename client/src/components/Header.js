@@ -11,7 +11,7 @@ class Header extends Component {
       <div className="background-header">
         <div className="container">
           <div className="backgroundDiv">
-            <Link to={"/"}><h1 className="left-align">Charlie Allision</h1></Link>
+            <Link to={"/"}><h1 className="left-align">Charlie Allison</h1></Link>
             <h4 className="left-align">Author, speaker, researcher</h4>
           </div>
           <div>
